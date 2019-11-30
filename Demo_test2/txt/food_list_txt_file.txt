@@ -1,0 +1,8 @@
+ID	Food_Name			price	FoodType	Tags	
+1	big cheeze burger		4000	burger		0,1,2,5
+2	double bulgogi burger		5000	burger		2,4,3,6
+3	oily chicken tomato burger	4000	burger		4,3,6,8
+4	spicy beef tomato burger	4000	burger		1,8,6,2
+5	spicy chicken burger		6000	burger		1,6,8,4
+6	saulty&spicy pork burger	4000	burger		6,7,8,3
+7	huge saulty chicken burger	5000	burger		3,6,7,2

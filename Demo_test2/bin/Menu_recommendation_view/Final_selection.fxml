@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menu_recommendation_view.Final_selection_controller">
+   <children>
+      <HBox fx:id="hbox" alignment="CENTER" layoutX="219.0" layoutY="142.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handle_one" prefHeight="150.0" prefWidth="150.0" text="메뉴 1">
+               <graphic>
+                  <ImageView pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handle_two" prefHeight="150.0" prefWidth="150.0" text="메뉴 2">
+               <graphic>
+                  <ImageView pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handle_three" prefHeight="150.0" prefWidth="150.0" text="메뉴 3">
+               <graphic>
+                  <ImageView pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+      <Button mnemonicParsing="false" onAction="#handle_exit" prefHeight="100.0" prefWidth="150.0" text="exit" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>

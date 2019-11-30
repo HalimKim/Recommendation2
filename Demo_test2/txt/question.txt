@@ -1,0 +1,9 @@
+0.want spicy food?
+1.want oily food?
+2.want beef patty?
+3.want pork patty?
+4.want chicken patty?
+5.want cheese patty?
+6.want to put tomatoes in your food?
+7.want salty food?
+8.want big size?

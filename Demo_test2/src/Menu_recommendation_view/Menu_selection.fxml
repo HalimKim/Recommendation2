@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menu_recommendation_view.Menu_selection_controller">
+   <children>
+      <Button layoutX="398.0" layoutY="520.0" mnemonicParsing="false" onAction="#handle_next_question" prefHeight="100.0" prefWidth="150.0" text="Next Question" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+      <ScrollPane hbarPolicy="NEVER" prefHeight="690.0" prefWidth="600.0">
+         <content>
+            <GridPane fx:id="gpane">
+              <columnConstraints>
+                <ColumnConstraints minWidth="10.0" prefWidth="150.0" />
+                <ColumnConstraints minWidth="10.0" prefWidth="150.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="150.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
